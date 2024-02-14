@@ -13,7 +13,7 @@ function Home() {
                         <h3 className='fw-bolder'>Education</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae nobis non numquam, repellat aut facilis quia aliquam eius molestiae! Maxime sit asperiores vitae voluptatem similique repudiandae eligendi blanditiis, quasi quo!</p>
                     </div>
-                    <Link to={'/registration'}><div><button className='btn btn-primary float-start'>Get started</button></div></Link>
+                    <Link to={'/register'}><div><button className='btn btn-primary float-start'>Get started</button></div></Link>
                 </div>
                 <div className="col-lg-4 mt-4">
                     <img src="https://img.freepik.com/free-vector/education-concept-illustration_114360-7928.jpg" alt="" />
