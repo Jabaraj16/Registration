@@ -10,10 +10,10 @@ function App() {
   return (
     <>
       <Routes>
-      <Route path='/' element={<Home/>}></Route>
-        <Route path='/registration' element={<RegistrationForm/>}></Route>
-        <Route path='/studentlist' element={<ShowStudents/>}></Route>
-        <Route path='/*' element={<Navigate to={'/'}/>}></Route>
+      <Route path='/' element={<Home/>}/>
+        <Route path='/registration' element={<RegistrationForm/>}/>
+        <Route path='/studentlist' element={<ShowStudents/>}/>
+        <Route path='/*' element={<Navigate to={'/'}/>}/>
       </Routes>
     </>
   )

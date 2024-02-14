@@ -6,7 +6,7 @@ function RegistrationForm() {
   return (
     <div>
          <Header insideRegister/>
-        <div className=''>
+        <div >
             <div className='row'>
                 <div className="col-lg-5">
                 <img src="https://cdni.iconscout.com/illustration/premium/thumb/online-registration-4489363-3723270.png" alt="no" />
